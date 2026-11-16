@@ -429,11 +429,12 @@ h1, h2, h3, h4, h5,
 		}
 	}
 	.author-info{
+		align-self: stretch;
 		@include media-breakpoint-down(sm){
 			width: 70%;
 		}
 
-		overflow-y: scroll;
+		overflow-y: auto;
 		h3.signature{
 			font-family: $font-tertiary;
 		}
